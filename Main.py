@@ -185,21 +185,3 @@ data['u(mL/s)'] = u_t
 data['ph'] = pH_t
 data['elapsed(s)'] = time_elapsed
 
-data.to_csv('C:\\Users\\Henry\\PycharmProjects\\MPC '
-            'project\\data\\comp_time\\servo_statespace_p15_c5.csv')
-
-# plt.figure()
-fig, ax = plt.subplots(2, 1, figsize=(12, 4))
-
-# for i in range(2):
-ax[0].plot(t_t, pH_t, 'o-')
-# ax[0].set_xlabel('Time')
-ax[0].set_title(f'pH')
-
-ax[1].step(t_t, u_t, 'o-')
-ax[1].set_xlabel('Time')
-ax[1].set_title(f'u')
-
-# ax[0].set_ylabel('Local minimum')
-# ax[1].set_ylabel('Derivative')
-plt.show()
