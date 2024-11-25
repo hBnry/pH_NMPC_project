@@ -1,0 +1,8 @@
+tensorflow~=2.10.1
+scipy~=1.14.0
+numpy~=1.26.4
+BondGraphTools~=0.4.6
+matplotlib~=3.9.1
+sympy~=1.13.1
+pandas~=2.2.2
+scikit-fuzzy~=0.4.2
